@@ -1,0 +1,211 @@
+"Exercice Affichage"
+
+Exercice 1 :
+
+System.out.println("Tapez un nombre: ");
+Scanner nombre=new Scanner(System.in);
+int n=nombre.nextInt();
+System.out.printLn("Le nombre est "+n);
+
+Exercice 2 :
+
+System.out.printLn("Ecrire ton prénom: ");
+Scanner prénom=new Scanner(System.char);
+char y=prénom.nextChar();
+System.out.printLn("Ecrire ton âge: ");
+Scanner âge=new Scanner(System.in);
+int x=âge.nextInt();
+System.out.printLn("Bonjour, je m'appelles "+y+" et j'ai "+x);
+
+Exercice 3 :
+
+System.out.printLn("Ecrire ton prénom: ");
+Scanner prénom=new Scanner(System.char);
+char y=prénom.nextChar();
+System.out.printLn("Bonjour, "+y+" !);
+
+"Exercice Mathematique"
+
+Exercice 1 :
+
+A = 3
+B = 4
+
+Exercice 2 :
+
+A = 2
+B = 3
+C = 1
+
+Exercice 3 :
+
+L'algorithme produit des nombres ecrites sous forme d'une chaine de caractères.
+
+A = "423"
+b = "12"
+c = "42312"
+
+Exercice 4 :
+
+System.out.printLn("Ecrire le nombre entier: ");
+Scanner entier=new Scanner(System.in);
+int x=entier.nextIn();
+System.out.printLn("Ecrire le nombre réel: ");
+Scanner réel=new Scanner(System.float);
+float y=réel.nextFloat();
+System.out.printLn("Ecrire le caractère: ");
+Scanner caractère=new Scanner(System.char);
+char z=prénom.nextChar();
+System.out.printLn(z+y+x);
+
+Exercice 5 :
+
+System.out.printLn("Ecrire le nombre entier: ");
+Scanner entier=new Scanner(System.in);
+int x=entier1.nextInt();
+System.out.printLn("Ecrire le nombre entier: ");
+Scanner entier2=new Scanner(System.in);
+int y=entier.nextInt();
+int z=x+y;
+System.out.printLn(z);
+
+Exercice 6 :
+
+System.out.printLn("Ecrire le nombre entier: ");
+Scanner entier=new Scanner(System.in);
+int x=entier1.nextInt();
+System.out.printLn("Ecrire le nombre entier: ");
+Scanner entier2=new Scanner(System.in);
+int y=entier.nextInt();
+int z=x*y;
+System.out.printLn(z);
+
+Exercice 7 :
+
+System.out.printLn("Ecrire le nombre entier: ");
+Scanner entier=new Scanner(System.in);
+int x=entier1.nextInt();
+System.out.printLn("Ecrire le nombre entier: ");
+Scanner entier2=new Scanner(System.in);
+int y=entier.nextInt();
+int v=x+y;
+int w=x*y;
+System.out.printLn("La somme de "+x+" et "+y+" est "+v+" et leurs produit est "+w);
+
+Eexercice 8 :
+
+System.out.printLn("Ecrire le longueur du rectangle: ");
+Scanner float=new Scanner(System.float);
+float x=float1.nextFloat();
+System.out.printLn("Ecrire la largeur du rectangle: ");
+Scanner float=new Scanner(System.float);
+float y=float2.nextFloat();
+float z=(x+y)*2;
+System.out.printLn("Le périmètre du rectangle est "+z);
+
+Exercice 9 :
+
+System.out.printLn("Ecrire un nombre: ");
+Scanner int=new Scanner(System.in);
+int x=int.nextInt();
+y=x*x;
+System.out.printLn("Le carré de "+x+" est "+y);
+
+Exercice 10 :
+
+System.out.printLn("Ecrire la base du triangle: ");
+Scanner float=new Scanner(System.float);
+float x=float1.nextFloat();
+System.out.printLn("Ecrire l'hauteur du rectangle: ");
+Scanner float=new Scanner(System.float);
+float y=float2.nextFloat();
+float z=(x*y)/2;
+System.out.printLn("Le surface du triangle est "+z);
+
+Exercice 11 :
+
+System.out.printLn("Ecrire la premiere note: ");
+Scanner float=new Scanner(System.float);
+float x=float1.nextFloat();
+System.out.printLn("Ecrire la deuxieme note: ");
+Scanner float=new Scanner(System.float);
+float y=float2.nextFloat();
+float z=(x+y)/2;
+System.out.printLn("Le surface du triangle est "+z);
+
+Exercice 12 :
+
+int A;
+int B;
+int C;
+
+int D = B;
+int E = C;
+
+B = A;
+C = D;
+A = E;
+
+Exercice 13 :
+
+int A;
+int B;
+
+int C = B;
+B = A;
+A = C;
+
+Exercice 14 :
+
+Algorithme :
+
+int N;
+Lire("Ecrire l'entier à trois chiffres: ");
+Ecrire(N);
+int X = N div 100;
+int Y = N div 10;
+int Z = N mod 10;
+Lire(X+Y+Z);
+
+Programme :
+
+System.out.printLn("Ecrire l'entier à trois chiffres: ");
+Scanner int=new Scanner(System.in);
+int N = int.nextInt();
+int X = N div 100;
+int Y = N div 10;
+int Z = N mod 10;
+System.out.printLn(X+Y+Z);
+
+Exercice 15 :
+
+System.out.printLn("Prix hors taxe de l'article: ");
+Scanner float=new Scanner(System.float);
+float X = float.nextFloat();
+System.out.printLn("Nombre d'article: ");
+Scanner int=new Scanner(System.in);
+int N = int.nextInt();
+System.out.printLn("TVA de l'article: ");
+Scanner float=new Scanner(System.float);
+float Y = float.nextFloat();
+float Z = (X+Y)*N;
+System.out.printLn("Le nombre de produit est "+N+", le prix HTTC est "+X+" et le prix total TTC est "+Z)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
